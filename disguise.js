@@ -1,5 +1,5 @@
 /* Disguises webpages on the fly.
-Eta, written in 2022 (https://github.com/milcerye) */
+Eta, written in 2022 (https://github.com/milcery22) */
 window.document.title = prompt("Set document title")
 if (confirm("Set a new favicon?")) {
     var link = document.querySelector("link[rel~='icon']");
